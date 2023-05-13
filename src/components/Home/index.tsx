@@ -1,5 +1,8 @@
 import Image from 'next/image';
 import {Container, FirstComponent, SecondComponent, ThirdComponent, FourthComponent, FifthComponent } from './styles';
+import {HiPhone} from 'react-icons/hi';
+import {AiOutlineMail} from 'react-icons/ai';
+
 
 import computer from '../../../public/assets/computer.png';
 import empty from '../../../public/assets/empty.png';
@@ -83,11 +86,16 @@ const Home = () => {
             <div className='ImageText'>
                 <Image src={machine} alt='Maquina de escrever'/>
                 <h2>Entre em contato</h2>
-                <h5>Tem alguma dúvida ou gostaria de falar diretamente conosco ? Entre em contato.</h5>
-
+                <p>Tem alguma dúvida ou gostaria de falar diretamente conosco ? Entre em contato.</p>
+                <div className='phone'>
+                    <HiPhone /><h5>TELEFONE</h5><h4>(99)9999-9999</h4>
+                </div>
+                <div className='email'>
+                    <AiOutlineMail /><h5>EMAIL</h5><h4>NossoEmail@gmail.com</h4>
+                </div>
             </div>
             <div className='Contact'>
-
+                
             </div>
             </FifthComponent>
         </Container>

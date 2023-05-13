@@ -274,6 +274,8 @@ export const FifthComponent = styled.div`
         }
     }
     .ImageText{
+        display: flex;
+        flex-direction: column;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
         background: #1C1B1F;
         margin-left: 1em;
@@ -285,11 +287,12 @@ export const FifthComponent = styled.div`
             font-weight: 400;
             font-size: 35px;
             line-height: 43px;
+            margin-top: 1.5em;
             margin-left: 1.5em;
             letter-spacing: 0.25px;
             color: #FFFFFF;
         }
-        h5{
+        p{
             width: 400px;
             height: 40px;
             margin-top: 2em;
@@ -302,6 +305,34 @@ export const FifthComponent = styled.div`
             letter-spacing: 0.5px;
 
             color: #EEEEEE;
+        }
+        .phone, .email{
+            svg{
+                margin: 3em 1em 0 2.3em;
+                float: left;
+                font-size: 20px;
+                color: #EEEEEE;
+            }
+            h5{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 15px;
+                letter-spacing: 0.4px;
+                color: #ABA9A9;
+                margin-left: 4.5em;
+                margin-top: 2.7em;
+            }
+            h4{
+                margin-top: 0.5em;
+                margin-left: 4em;
+                letter-spacing: 0.5px;
+                font-size: 20px;
+                color: #EEEEEE;
+            }
+        }.email{
+            margin-bottom: 4em;
         }
     }
 `
