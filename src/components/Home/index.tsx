@@ -101,10 +101,10 @@ const Home = () => {
                 <input type="text" id="name" name="name" placeholder='Seu nome ou nome da empresa'/>
 
                 <label htmlFor="email">Email</label>
-                <input type="email" id="email" name="email"/>
+                <input type="email" id="email" name="email" placeholder='exemplo@gmail.com' />
 
                 <label htmlFor="number">Número</label>
-                <input type="text" id="number" name="number"/>
+                <input type="text" id="number" name="number" placeholder='DDD + Numero'/>
 
                 <label htmlFor='help'>Como podemos ajudar?</label>
                 <textarea placeholder='Conte um pouco sobre o seu projeto'></textarea>
