@@ -12,6 +12,7 @@ import idea from '../../../public/assets/idea.png';
 import machine from '../../../public/assets/Machine.png';
 
 const Home = () => {
+    
     return(
         <Container>
             <FirstComponent>
@@ -95,7 +96,21 @@ const Home = () => {
                 </div>
             </div>
             <div className='Contact'>
-                
+            <form >
+                <label htmlFor="name">Nome/Empresa</label>
+                <input type="text" id="name" name="name" placeholder='Seu nome ou nome da empresa'/>
+
+                <label htmlFor="email">Email</label>
+                <input type="email" id="email" name="email"/>
+
+                <label htmlFor="number">Número</label>
+                <input type="text" id="number" name="number"/>
+
+                <label htmlFor='help'>Como podemos ajudar?</label>
+                <textarea placeholder='Conte um pouco sobre o seu projeto'></textarea>
+
+                <button type="submit">Submit</button>
+                </form>
             </div>
             </FifthComponent>
         </Container>
