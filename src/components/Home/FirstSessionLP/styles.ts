@@ -225,7 +225,6 @@ export const FirstComponent = styled.div`
 
 export const Text = styled.p`
     color: #F5F5F5;
-    text-align: justify;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
