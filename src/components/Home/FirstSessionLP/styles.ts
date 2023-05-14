@@ -259,7 +259,7 @@ export const Text = styled.p`
         margin-left: 2.3em;
         width: 325px;
         letter-spacing: 0.5px;
-        word-spacing: -1px;
+        word-spacing: -4px;
         line-height: 33px;
     }
     @media screen and (min-width: 860px) and (max-width:959px) {
