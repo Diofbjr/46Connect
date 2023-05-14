@@ -232,38 +232,38 @@ export const Text = styled.p`
     @media screen and (min-width: 360px) and (max-width: 459px) {
         font-size: 16px ;
         margin-left: 1.7em;
-        width: 185px;
+        width: 210px;
         line-height: 20px;
     }
     @media screen and (min-width: 460px) and (max-width:559px) {
         font-size: 18px ;
         margin-left: 2.1em;
-        width: 210px;
+        width: 280px;
         line-height: 22px;
     }
     @media screen and (min-width: 560px) and (max-width:659px) {
         font-size: 21px ;
         margin-left: 2.3em;
-        width: 245px;
+        width: 330px;
         line-height: 25px;
     }
     @media screen and (min-width: 660px) and (max-width:759px) {
         font-size: 25px ;
         margin-left: 2.3em;
-        width: 290px;
+        width: 370px;
         line-height: 29px;
     }
     @media screen and (min-width: 760px) and (max-width:859px) {
         font-size: 29px;
         margin-left: 2.3em;
-        width: 500px;
+        width: 430px;
         letter-spacing: 0.5px;
         line-height: 33px;
     }
     @media screen and (min-width: 860px) and (max-width:959px) {
         font-size: 33px;
         margin-left: 2.3em;
-        width: 370px;
+        width: 400px;
         line-height: 37px;
     }
     
