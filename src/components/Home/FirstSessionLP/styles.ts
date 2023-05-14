@@ -49,13 +49,13 @@ export const FirstComponent = styled.div`
             margin-bottom: 9em;
             button{
                 border-radius: 5px;
-                font-size: 13px;
+                font-size: 12px;
             }
             .firstButton{
-                margin-left: 1em;
+                margin-left: 2em;
             }
             .secondButton{
-                margin-left: 0.5em;
+                margin-left: 0.7em;
             }
             .secondButton:hover{
                 transform: scale(1.2);
@@ -74,11 +74,11 @@ export const FirstComponent = styled.div`
         .buttons{
             button{
                 border-radius: 5px;
-                font-size: 17px;
+                font-size: 15px;
             }
             .firstButton{
                 background: none;
-                margin-left: 1em;
+                margin-left: 2.5em;
                 
                 
             }
@@ -104,11 +104,11 @@ export const FirstComponent = styled.div`
         .buttons{
             button{
                 border-radius: 5px;
-                font-size: 21px;
+                font-size: 19px;
             }
             .firstButton{
                 background: none;
-                margin-left: 1em;
+                margin-left: 2.6em;
                 
                 
             }
@@ -134,11 +134,11 @@ export const FirstComponent = styled.div`
         .buttons{
             button{
                 border-radius: 5px;
-                font-size: 25px;
+                font-size: 23px;
             }
             .firstButton{
                 background: none;
-                margin-left: 1em;
+                margin-left: 2.4em;
                 
                 
             }
@@ -164,11 +164,11 @@ export const FirstComponent = styled.div`
         .buttons{
             button{
                 border-radius: 5px;
-                font-size: 29px;
+                font-size: 27px;
             }
             .firstButton{
                 background: none;
-                margin-left: 1em;
+                margin-left: 2.3em;
                 
                 
             }
@@ -194,11 +194,41 @@ export const FirstComponent = styled.div`
         .buttons{
             button{
                 border-radius: 5px;
-                font-size: 33px;
+                font-size: 31px;
             }
             .firstButton{
                 background: none;
-                margin-left: 1em;
+                margin-left: 1.9em;
+                
+                
+            }
+            .secondButton{
+                margin-left: 0.5em;
+                margin-top: 3.4em;
+            }
+            .secondButton:hover{
+                transform: scale(1.1);
+                margin-left: 1.3em;
+            }
+            margin-bottom: 9em;
+        }
+    }
+    @media screen and (min-width: 960px) and (max-width:1099px) {
+        background-size:1250px auto !important;
+        .text{
+            h1{
+                font-size: 65px;
+                width: 10em;
+            }
+        }
+        .buttons{
+            button{
+                border-radius: 5px;
+                font-size: 35px;
+            }
+            .firstButton{
+                background: none;
+                margin-left: 2em;
                 
                 
             }
@@ -266,7 +296,12 @@ export const Text = styled.p`
         width: 400px;
         line-height: 37px;
     }
-    
+    @media screen and (min-width: 960px) and (max-width:1099px) {
+        font-size: 37px;
+        margin-left: 2em;
+        width: 540px;
+        line-height: 41px;
+    }
     
     
 
@@ -276,7 +311,7 @@ export const Text = styled.p`
         }
     }
 
-    @media (max-width:959px) {
+    @media (max-width:1099px) {
         
         &::before {
             content: "Ajudamos você a construir uma presença online forte e profissional que reflita o futuro do seu negócio!";
