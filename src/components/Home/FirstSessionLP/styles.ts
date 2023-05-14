@@ -93,6 +93,66 @@ export const FirstComponent = styled.div`
             margin-bottom: 9em;
         }
     }
+    @media screen and (min-width: 560px) and (max-width: 659px) {
+        background-size:750px auto !important;
+        .text{
+            h1{
+                font-size: 44px;
+                width: 10em;
+            }
+        }
+        .buttons{
+            button{
+                border-radius: 5px;
+                font-size: 21px;
+            }
+            .firstButton{
+                background: none;
+                margin-left: 1em;
+                
+                
+            }
+            .secondButton{
+                margin-left: 0.5em;
+                margin-top: 3.4em;
+            }
+            .secondButton:hover{
+                transform: scale(1.1);
+                margin-left: 1.3em;
+            }
+            margin-bottom: 9em;
+        }
+    }
+    @media screen and (min-width: 660px) and (max-width:759px) {
+        background-size:850px auto !important;
+        .text{
+            h1{
+                font-size: 49px;
+                width: 10em;
+            }
+        }
+        .buttons{
+            button{
+                border-radius: 5px;
+                font-size: 25px;
+            }
+            .firstButton{
+                background: none;
+                margin-left: 1em;
+                
+                
+            }
+            .secondButton{
+                margin-left: 0.5em;
+                margin-top: 3.4em;
+            }
+            .secondButton:hover{
+                transform: scale(1.1);
+                margin-left: 1.3em;
+            }
+            margin-bottom: 9em;
+        }
+    }
     
 `
 
@@ -110,18 +170,33 @@ export const Text = styled.p`
     font-style: normal;
     font-weight: 400;
     margin-top: 1em;
-    line-height: 20px;
     letter-spacing: 0.5px;
     @media screen and (min-width: 360px) and (max-width: 459px) {
         font-size: 16px ;
         margin-left: 1.7em;
-        width: 11.6em;
-        
+        width: 12em;
+        line-height: 20px;
     }
     @media screen and (min-width: 460px) and (max-width:559px) {
-        font-size: 19px ;
+        font-size: 18px ;
         margin-left: 2.1em;
-        width: 11.8em;
+        width: 12.9em;
+        line-height: 22px;
+        border: 1px solid red;
+    }
+    @media screen and (min-width: 560px) and (max-width:659px) {
+        font-size: 21px ;
+        margin-left: 2.3em;
+        width: 12.9em;
+        line-height: 25px;
+        border: 1px solid red;
+    }
+    @media screen and (min-width: 660px) and (max-width:759px) {
+        font-size: 25px ;
+        margin-left: 2.3em;
+        width: 12.9em;
+        line-height: 29px;
+        border: 1px solid red;
     }
     
     
@@ -133,7 +208,7 @@ export const Text = styled.p`
         }
     }
 
-    @media (max-width: 559px) {
+    @media (max-width: 759px) {
         
         &::before {
             content: "Ajudamos você a construir uma presença online forte e profissional que reflita o futuro do seu negócio!";
