@@ -258,7 +258,7 @@ export const Text = styled.p`
         font-size: 29px;
         margin-left: 2.3em;
         width: 325px;
-        letter-spacing: -0.1px;
+        letter-spacing: -0.5px;
         line-height: 33px;
     }
     @media screen and (min-width: 860px) and (max-width:959px) {
