@@ -174,27 +174,27 @@ export const Text = styled.p`
     @media screen and (min-width: 360px) and (max-width: 459px) {
         font-size: 16px ;
         margin-left: 1.7em;
-        width: 12em;
+        width: 185px;
         line-height: 20px;
     }
     @media screen and (min-width: 460px) and (max-width:559px) {
         font-size: 18px ;
         margin-left: 2.1em;
-        width: 12.9em;
+        width: 210px;
         line-height: 22px;
         border: 1px solid red;
     }
     @media screen and (min-width: 560px) and (max-width:659px) {
         font-size: 21px ;
         margin-left: 2.3em;
-        width: 12.9em;
+        width: 245px;
         line-height: 25px;
         border: 1px solid red;
     }
     @media screen and (min-width: 660px) and (max-width:759px) {
         font-size: 25px ;
         margin-left: 2.3em;
-        width: 12.9em;
+        width: 290px;
         line-height: 29px;
         border: 1px solid red;
     }
