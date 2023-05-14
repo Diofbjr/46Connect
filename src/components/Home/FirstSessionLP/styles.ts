@@ -233,7 +233,7 @@ export const Text = styled.p`
     @media screen and (min-width: 360px) and (max-width: 459px) {
         font-size: 16px ;
         margin-left: 1.7em;
-        width: 185px;
+        width: 250px;
         line-height: 20px;
     }
     @media screen and (min-width: 460px) and (max-width:559px) {
@@ -245,27 +245,26 @@ export const Text = styled.p`
     @media screen and (min-width: 560px) and (max-width:659px) {
         font-size: 21px ;
         margin-left: 2.3em;
-        width: 245px;
+        width: 300px;
         line-height: 25px;
     }
     @media screen and (min-width: 660px) and (max-width:759px) {
         font-size: 25px ;
         margin-left: 2.3em;
-        width: 290px;
+        width: 450px;
         line-height: 29px;
     }
     @media screen and (min-width: 760px) and (max-width:859px) {
         font-size: 29px;
         margin-left: 2.3em;
-        width: 325px;
+        width: 500px;
         letter-spacing: 0.5px;
-        word-spacing: -4px;
         line-height: 33px;
     }
     @media screen and (min-width: 860px) and (max-width:959px) {
         font-size: 33px;
         margin-left: 2.3em;
-        width: 370px;
+        width: 550px;
         line-height: 37px;
     }
     
