@@ -251,20 +251,20 @@ export const Text = styled.p`
     @media screen and (min-width: 660px) and (max-width:759px) {
         font-size: 25px ;
         margin-left: 2.3em;
-        width: 450px;
+        width: 50%;
         line-height: 29px;
     }
     @media screen and (min-width: 760px) and (max-width:859px) {
         font-size: 29px;
         margin-left: 2.3em;
-        width: 500px;
+        width: 50%;
         letter-spacing: 0.5px;
         line-height: 33px;
     }
     @media screen and (min-width: 860px) and (max-width:959px) {
         font-size: 33px;
         margin-left: 2.3em;
-        width: 550px;
+        width: 50%;
         line-height: 37px;
     }
     
