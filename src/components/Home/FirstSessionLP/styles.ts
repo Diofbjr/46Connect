@@ -5,13 +5,14 @@ export const FirstComponent = styled.div`
     background-image: url(${Banner.src});
     background-size: contain;
     background-repeat: no-repeat;
+    filter: brightness(90%);
     .text{
         h1{
             color: #F5F5F5;
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 400;
-            margin-top: 1em;
+            margin-top: 3em;
             margin-left: 1em;
         }
     }
@@ -23,7 +24,7 @@ export const FirstComponent = styled.div`
             background: none;
             border: 1px solid #2975CC;
             color: #2975CC;
-            padding: 5px 10px;
+            padding: 7px 10px;
             margin-top: 3.4em;
         }
         .secondButton{
@@ -31,13 +32,16 @@ export const FirstComponent = styled.div`
             color: #FAFAFA;
             cursor: pointer;
             transition: all 0.4s ease-in-out;
-            padding: 6px 11px;
+            padding: 8px 11px;
             margin-top: 3.4em;
         }
+        .secondButton:hover{
+            transform: scale(1.2);
+            margin-left: 1.3em;
+        } 
     }
     @media screen and (min-width: 360px) and (max-width: 459px) {
         background-size: 550px auto !important;
-        margin-top: 3em;
         .text{
             h1{
                 font-size: 27px;
@@ -56,15 +60,11 @@ export const FirstComponent = styled.div`
             .secondButton{
                 margin-left: 0.7em;
             }
-            .secondButton:hover{
-                transform: scale(1.2);
-                margin-left: 1.3em;
-            } 
+            
         }
     }
     @media screen and (min-width: 460px) and (max-width:559px) {
         background-size: 650px auto !important;
-        margin-top: 3em;
         .text{
             h1{
                 font-size: 37px;
@@ -86,16 +86,11 @@ export const FirstComponent = styled.div`
                 margin-left: 0.5em;
                 margin-top: 3.4em;
             }
-            .secondButton:hover{
-                transform: scale(1.1);
-                margin-left: 1.3em;
-            }
             margin-bottom: 9em;
         }
     }
     @media screen and (min-width: 560px) and (max-width: 659px) {
         background-size:750px auto !important;
-        margin-top: 3em;
         .text{
             h1{
                 font-size: 44px;
@@ -117,16 +112,11 @@ export const FirstComponent = styled.div`
                 margin-left: 0.5em;
                 margin-top: 3.4em;
             }
-            .secondButton:hover{
-                transform: scale(1.1);
-                margin-left: 1.3em;
-            }
             margin-bottom: 9em;
         }
     }
     @media screen and (min-width: 660px) and (max-width:759px) {
         background-size:850px auto !important;
-        margin-top: 3em;
         .text{
             h1{
                 font-size: 49px;
@@ -148,16 +138,11 @@ export const FirstComponent = styled.div`
                 margin-left: 0.5em;
                 margin-top: 3.4em;
             }
-            .secondButton:hover{
-                transform: scale(1.1);
-                margin-left: 1.3em;
-            }
             margin-bottom: 9em;
         }
     }
     @media screen and (min-width: 760px) and (max-width:859px) {
         background-size:950px auto !important;
-        margin-top: 3em;
         .text{
             h1{
                 font-size: 54px;
@@ -179,16 +164,11 @@ export const FirstComponent = styled.div`
                 margin-left: 0.5em;
                 margin-top: 3.4em;
             }
-            .secondButton:hover{
-                transform: scale(1.1);
-                margin-left: 1.3em;
-            }
             margin-bottom: 9em;
         }
     }
     @media screen and (min-width: 860px) and (max-width:959px) {
         background-size:950px auto !important;
-        margin-top: 3em;
         .text{
             h1{
                 font-size: 57px;
@@ -210,16 +190,11 @@ export const FirstComponent = styled.div`
                 margin-left: 0.5em;
                 margin-top: 3.4em;
             }
-            .secondButton:hover{
-                transform: scale(1.1);
-                margin-left: 1.3em;
-            }
             margin-bottom: 9em;
         }
     }
     @media screen and (min-width: 960px) and (max-width:1099px) {
         background-size:1250px auto !important;
-        margin-top: 3em;
         .text{
             h1{
                 font-size: 65px;
@@ -241,16 +216,11 @@ export const FirstComponent = styled.div`
                 margin-left: 0.5em;
                 margin-top: 3.4em;
             }
-            .secondButton:hover{
-                transform: scale(1.1);
-                margin-left: 1.3em;
-            }
             margin-bottom: 9em;
         }
     }
     @media screen and (min-width: 1100px) and (max-width:1299px){
         height: 100vh;
-        margin-top: 8em;
         .text{
             h1{
                 font-size: 43px;
@@ -272,14 +242,62 @@ export const FirstComponent = styled.div`
                 margin-left: 0.5em;
                 margin-top: 3.4em;
             }
-            .secondButton:hover{
-                transform: scale(1.1);
-                margin-left: 1.3em;
+            margin-bottom: 9em;
+        }
+    }
+    @media screen and (min-width: 1300px) and (max-width:1499px){
+    height: 100vh;
+        .text{
+            h1{
+                font-size: 57px;
+                width: 10em;
+            }
+        }
+        .buttons{
+            button{
+                border-radius: 5px;
+                font-size: 23px;
+            }
+            .firstButton{
+                background: none;
+                margin-left: 2em;
+                
+                
+            }
+            .secondButton{
+                margin-left: 0.5em;
+                margin-top: 3.4em;
             }
             margin-bottom: 9em;
         }
     }
-    
+    @media screen and (min-width: 1500px){
+        height: 100vh;
+        .text{
+            h1{
+                font-size: 70px;
+                width: 10em;
+            }
+        }
+        .buttons{
+            button{
+                border-radius: 5px;
+                font-size: 27px;
+            }
+            .firstButton{
+                background: none;
+                margin-left: 2em;
+                
+                
+            }
+            .secondButton{
+                margin-left: 0.5em;
+                margin-top: 3.4em;
+            }
+            margin-bottom: 9em;
+        }
+    }
+
 `
 
 
@@ -294,55 +312,60 @@ export const Text = styled.p`
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    margin-top: 1em;
+    margin-top: 1.5em;
+    letter-spacing: 0.5px;
+    width: 50% !important;
+    text-align: left;
     @media screen and (min-width: 360px) and (max-width: 459px) {
-        font-size: 16px ;
-        margin-left: 1.7em;
-        width: 210px;
-        line-height: 20px;
+        font-size: 14px ;
+        margin-left: 2em;
+        line-height: 18px;
     }
     @media screen and (min-width: 460px) and (max-width:559px) {
         font-size: 18px ;
         margin-left: 2.1em;
-        width: 280px;
         line-height: 22px;
     }
     @media screen and (min-width: 560px) and (max-width:659px) {
-        font-size: 21px ;
-        margin-left: 2.3em;
-        width: 330px;
-        line-height: 25px;
+        font-size: 22px ;
+        margin-left: 2.2em;
+        line-height: 26px;
     }
     @media screen and (min-width: 660px) and (max-width:759px) {
-        font-size: 25px ;
-        margin-left: 2.3em;
-        width: 370px;
-        line-height: 29px;
+        font-size: 24px ;
+        margin-left: 2.1em;
+        line-height: 28px;
     }
     @media screen and (min-width: 760px) and (max-width:859px) {
-        font-size: 29px;
+        font-size: 27px;
         margin-left: 2.3em;
-        width: 430px;
-        letter-spacing: 0.5px;
-        line-height: 33px;
+        line-height: 31px;
     }
     @media screen and (min-width: 860px) and (max-width:959px) {
-        font-size: 33px;
-        margin-left: 2.3em;
-        width: 400px;
-        line-height: 37px;
+        font-size: 29.5px;
+        margin-left: 2.1em;
+        line-height: 33px;
     }
     @media screen and (min-width: 960px) and (max-width:1099px) {
         font-size: 37px;
         margin-left: 2em;
-        width: 540px;
         line-height: 41px;
     }
     @media screen and (min-width: 1100px) and (max-width:1299px) {
-        font-size: 18px;
+        font-size: 21px;
         margin-left: 2em;
-        width: 540px;
+        line-height: 24px;
+    }
+
+    @media screen and (min-width: 1300px) and (max-width:1499px) {
+        font-size: 23px;
+        margin-left: 2.4em;
         line-height: 22px;
+    }
+    @media screen and (min-width: 1500px){
+        font-size: 28px;
+        margin-left: 2.4em;
+        line-height: 32px;
     }
     
     
