@@ -3,7 +3,7 @@ import Banner from '../../../../public/assets/Banner.png';
 
 export const FirstComponent = styled.div`
     background-image: url(${Banner.src});
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     filter: brightness(90%);
     .text{
@@ -300,13 +300,6 @@ export const FirstComponent = styled.div`
     }
 
 `
-
-
-
-
-
-
-
 
 export const Text = styled.p`
     color: #F5F5F5;
