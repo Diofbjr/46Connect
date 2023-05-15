@@ -272,6 +272,7 @@ export const FirstComponent = styled.div`
         }
     }
     @media screen and (min-width: 1500px){
+        background-size: 100% auto;
         height: 100vh;
         .text{
             h1{
