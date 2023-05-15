@@ -11,7 +11,7 @@ const Home = () => {
     return(
         <Container>
             <FirstSession/>
-            
+            <ThirdSession/>
         </Container>
     )
 

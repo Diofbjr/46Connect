@@ -1,12 +1,10 @@
-import styles, { styled } from 'styled-components';
+import styled from 'styled-components';
 
 export const ThirdComponent = styled.div`
     display: flex;
-    margin-top: 15em;
     padding-bottom: 12em;
     .text{
         .bigText{
-            margin-left: 3.6em;
             display: inline-block;
             border-left: 2px solid #FBFBFB;
             height: auto;
@@ -17,10 +15,8 @@ export const ThirdComponent = styled.div`
                 width: 15em;
                 font-style: normal;
                 font-weight: 400;
-                font-size: 50px;
-                line-height: 43px;
                 letter-spacing: 0.25px;
-            color: #FFFFFF;
+                color: #FFFFFF;
             }
         }
         p{
@@ -67,5 +63,124 @@ export const ThirdComponent = styled.div`
             right: 70px;
         }
     }
+    @media screen and (min-width: 360px) and (max-width: 1099px){
+        margin-bottom: 9em;
+        .text{
+            p{
+                display: none;
+            }
+        }
+        .images{
+            display: none;
+        }
+    }
+    @media screen and (min-width: 360px) and (max-width: 459px) {
+        .text{
+            .bigText{
+                margin-left: 2em;
+                h2{
+                    margin-left: 0.5em;
+                    width: 10em;
+                    font-size: 25px;
+                    line-height: 29px;
+                    letter-spacing: 0.25px;
+                }
+            }
+            
+        }
+    }
+    @media screen and (min-width: 460px) and (max-width: 559px) {
+        .text{
+            .bigText{
+                margin-left: 2.2em;
+                h2{
+                    margin-left: 0.5em;
+                    width: 10em;
+                    font-size: 28px;
+                    line-height: 32px;
+                    letter-spacing: 0.25px;
+                }
+            }
+            
+        }
+    }
+    @media screen and (min-width: 560px) and (max-width: 659px) {
+        .text{
+            .bigText{
+                margin-left: 2.4em;
+                h2{
+                    margin-left: 0.5em;
+                    width: 10em;
+                    font-size: 34px;
+                    line-height: 38px;
+                    letter-spacing: 0.25px;
+                }
+            }
+            
+        }
+    }
+    @media screen and (min-width: 660px) and (max-width: 759px) {
+        .text{
+            .bigText{
+                margin-left: 2.7em;
+                h2{
+                    margin-left: 0.5em;
+                    width: 10em;
+                    font-size: 37px;
+                    line-height: 41px;
+                    letter-spacing: 0.25px;
+                }
+            }
+            
+        }
+    }
+    @media screen and (min-width: 760px) and (max-width: 859px) {
+        .text{
+            .bigText{
+                margin-left: 3.5em;
+                h2{
+                    margin-left: 0.5em;
+                    width: 10em;
+                    font-size: 42px;
+                    line-height: 45px;
+                    letter-spacing: 0.25px;
+                }
+            }
+            
+        }
+    }
+    @media screen and (min-width: 860px) and (max-width: 959px) {
+        .text{
+            .bigText{
+                margin-left: 3.7em;
+                h2{
+                    margin-left: 0.5em;
+                    width: 10em;
+                    font-size: 47px;
+                    line-height: 51px;
+                    letter-spacing: 0.25px;
+                }
+            }
+            
+        }
+    }
+    @media screen and (min-width: 960px) and (max-width: 1099px) {
+        .text{
+            .bigText{
+                margin-left: 4.1em;
+                h2{
+                    margin-left: 0.5em;
+                    width: 10em;
+                    font-size: 54px;
+                    line-height: 58px;
+                    letter-spacing: 0.25px;
+                }
+            }
+            
+        }
+    }
+
+    @media screen and (min-width: 1100px) and (max-width:1299px){}
+
 
 `
