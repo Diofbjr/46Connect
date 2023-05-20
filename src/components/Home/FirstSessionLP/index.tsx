@@ -35,6 +35,12 @@ const FirstSession: React.FC = () => {
         "Combinamos tecnologia de ponta com design inovador para criar sites personalizados com soluções modernas. Ajudamos você a construir uma presença online forte e profissional que reflita o futuro do seu negócio!";
     }
 
+    //Estilização
+
+    const h1Classes = `text-primaryText text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl pt-[3rem] md:pt-[6rem] pb-6 pl-8 lg:pt-[4rem] lg:py-[5rem] w-5/6 sm:w-3/5 md:w-2/3 lg:w-1/2 xl:w-2/4 ${styles["custom-h1"]}`;
+    const pClasses = `text-primaryText text-1xl md:text-2xl lg:text-2xl md:pt-20 pt-6 lg:pt-5 pl-8 w-full sm:w-2/4 md:w-3/4 lg:w-3/4`
+    const buttonConferirClasses = `text-primaryButton text-1xl md:text-2xl lg:text-3xl xl:text-4xl px-1 py-1 mt-12 ml-8 md:px-4 md:py-2 lg:px-5`
+    const buttonComecarClasses = `bg-custom text-primaryText text-1xl md:text-2xl lg:text-3xl xl:text-4xl px-1 py-1 mt-12 ml-1 md:px-4 md:py-2 md:ml-3`
     return (
         
         <div className={`relative ${styles["main-container"]}`}>
@@ -47,20 +53,19 @@ const FirstSession: React.FC = () => {
             ></div>
 
             <div className="relative flex flex-col h-screen">
-            <h1 className={`text-primaryText text-custom-h1 pt-custom-pt-h1 pb-custom-pb-h1 pl-8 lg:pt-custom-pt-h1 lg:pb-custom-pb-h1 w-custom-w-h1 sm:w-custom-w-h1 md:w-custom-w-h1 lg:w-custom-w-h1 xl:w-custom-w-h1 ${styles["custom-h1"]}`}>
-            Construa seu futuro digital conosco.
-            </h1>
+                <h1 className={` ${styles["customh1"]} ${h1Classes}`}>
+                    Construa seu futuro digital conosco.
+                </h1>
 
-
-                <p className={`text-primaryText text-1xl md:text-2xl lg:text-2xl md:pt-20 pt-6 lg:pt-5 pl-8 w-full sm:w-2/4 md:w-3/4 lg:w-3/4 ${styles["custom-p"]}`}>
+                <p className={` ${styles["custom-p"]} ${pClasses}`}>
                     {message}
                 </p>
 
                 <div className="flex lg:mt-[5rem]">
-                    <button className={`text-primaryButton text-1xl md:text-2xl lg:text-3xl xl:text-4xl px-1 py-1 mt-12 ml-8 md:px-4 md:py-2 lg:px-5  ${styles["custom-button"]}`}>
+                    <button className={`${styles["custom-button"]} ${buttonConferirClasses}`}>
                     CONFERIR SERVIÇOS
                     </button>
-                    <button className={`bg-custom text-primaryText text-1xl md:text-2xl lg:text-3xl xl:text-4xl px-1 py-1 mt-12 ml-1 md:px-4 md:py-2 md:ml-3 ${styles["custom-button"]}`}>
+                    <button className={` ${styles["custom-button"]} ${buttonComecarClasses}`}>
                     COMEÇAR PROJETO
                     </button>
                 </div>
