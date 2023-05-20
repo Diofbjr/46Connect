@@ -1,18 +1,14 @@
-import {Container } from './styles';
+import React from "react";
+import FirstSession from "./FirstSessionLP";
 
-import FirstSession from './FirstSessionLP';
-import SecondSession from './SecondSessionLP';
-import ThirdSession  from './ThirdSessionLP';
-import FourthSession from './FourthSessionLP';
-import FifthSession from './FifthSessionLP';
+
 
 const Home = () => {
     
     return(
-        <Container>
+        <div className="bg-[#131313] display-flex h-screen w-screen">
             <FirstSession/>
-            <ThirdSession/>
-        </Container>
+        </div>
     )
 
 }

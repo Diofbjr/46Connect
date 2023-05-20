@@ -1,0 +1,13 @@
+.custom-h1{
+    width: 10em;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.custom-p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
