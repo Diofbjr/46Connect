@@ -47,12 +47,12 @@ const FirstSession: React.FC = () => {
             <div
             className="absolute inset-0 bg-cover bg-no-repeat bg-center w-screen"
             style={{
-                filter: 'brightness(35%)',
+                filter: 'brightness(60%)',
                 backgroundImage: "url('/assets/Banner.png')",
             }}
             ></div>
 
-            <div className="relative flex flex-col h-screen">
+            <div className="relative flex flex-col min-h-screen">
                 <h1 className={` ${styles["customh1"]} ${h1Classes}`}>
                     Construa seu futuro digital conosco.
                 </h1>
