@@ -39,7 +39,7 @@ const FirstSession: React.FC = () => {
         
         <div className={`relative ${styles["main-container"]}`}>
             <div
-            className="absolute inset-0 bg-cover bg-no-repeat bg-center h-screen w-screen"
+            className="absolute inset-0 bg-cover bg-no-repeat bg-center w-screen"
             style={{
                 filter: 'brightness(35%)',
                 backgroundImage: "url('/assets/Banner.png')",

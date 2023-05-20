@@ -6,7 +6,7 @@ import FirstSession from "./FirstSessionLP";
 const Home = () => {
     
     return(
-        <div className="bg-[#131313] display-flex h-screen w-screen">
+        <div className="bg-[#131313] display-flex w-screen">
             <FirstSession/>
         </div>
     )
