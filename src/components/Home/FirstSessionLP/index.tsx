@@ -37,10 +37,10 @@ const FirstSession: React.FC = () => {
 
     //Estilização
 
-    const h1Classes = `text-primaryText text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl pt-[3rem] md:pt-[6rem] pb-6 pl-8 lg:pt-[4rem] lg:py-[5rem] w-5/6 sm:w-3/5 md:w-2/3 lg:w-1/2 xl:w-2/4 ${styles["custom-h1"]}`;
-    const pClasses = `text-primaryText text-1xl md:text-2xl lg:text-2xl md:pt-20 pt-6 lg:pt-5 pl-8 w-full sm:w-2/4 md:w-3/4 lg:w-3/4`
-    const buttonConferirClasses = `text-primaryButton text-1xl md:text-2xl lg:text-3xl xl:text-4xl px-1 py-1 mt-12 ml-8 md:px-4 md:py-2 lg:px-5`
-    const buttonComecarClasses = `bg-custom text-primaryText text-1xl md:text-2xl lg:text-3xl xl:text-4xl px-1 py-1 mt-12 ml-1 md:px-4 md:py-2 md:ml-3`
+    const h1Classes = `text-primaryText text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-9xl pt-[3rem] md:pt-[6rem] pb-6 pl-8 lg:pt-[4rem] lg:py-[5rem] 2xl:px-[5rem] 2xl:py-[6rem] w-5/6 sm:w-3/5 md:w-2/3 lg:w-1/2 xl:w-2/4 2xl:w-1/2`;
+    const pClasses = `text-primaryText text-1xl sm:text-1x1 md:text-2xl lg:text-2xl xl:text-4xl 2xl:text-5xl pt-[1rem] md:pt-[2rem] pb-6 pl-8 lg:pt-[1rem] lg:py-[2rem] 2xl:px-[5rem] 2xl:py-[3rem] w-3/4 sm:w-2/4 md:w-3/4 lg:w-3/4 xl-2/4 2xl:w-3/5 `
+    const buttonConferirClasses = `text-primaryButton text-1xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl  lg:ml-[1rem] lg:ml-[2rem] 2xl:ml-[5rem] px-1 py-1 mt-12 ml-8 xl-10 md:px-4 md:py-2 lg:px-5 xl:py-3`
+    const buttonComecarClasses = `bg-custom text-primaryText text-1xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl  px-1 py-1 mt-12 ml-1 md:px-4 md:py-2 md:ml-3 xl:ml-4 2xl:ml-5 `
     return (
         
         <div className={`relative ${styles["main-container"]}`}>
