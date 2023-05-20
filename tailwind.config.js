@@ -8,6 +8,10 @@ module.exports = {
     extend: {
       colors: {
         primaryText: '#f5f5f5',
+        primaryButton: '#2975CC',
+      },
+      backgroundColor: {
+        'custom': '#2975CC',
       },
     },
   },

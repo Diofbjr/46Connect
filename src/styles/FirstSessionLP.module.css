@@ -11,3 +11,7 @@
     font-weight: 400;
     letter-spacing: 0.5px;
 }
+.custom-button{
+    border: 1px solid #2975CC;
+    border-radius: 10px;
+}
