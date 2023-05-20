@@ -47,7 +47,7 @@ const FirstSession: React.FC = () => {
             ></div>
 
             <div className="relative flex flex-col h-screen">
-                <h1 className={`text-primaryText text-3xl md:text-5xl lg:text-5xl xl:text-6xl pt-10 pb-6 pl-8 lg:pt-[4rem] lg:py-[5rem] w-full md:w-2/3 lg:w-1/2 xl:w-2/4 ${styles["custom-h1"]}`}>
+                <h1 className={`text-primaryText text-3xl md:text-5xl lg:text-5xl xl:text-6xl pt-5 sm:pt-[10rem] pb-6 pl-8 lg:pt-[4rem] lg:py-[5rem] w-full md:w-2/3 lg:w-1/2 xl:w-2/4 ${styles["custom-h1"]}`}>
                     Construa seu futuro digital conosco.
                 </h1>
 
